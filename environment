@@ -1,0 +1,3 @@
+export PV_DB_URL=jdbc:postgresql://localhost:5432/pv_forecasting_engine
+export PV_DB_USER=postgres
+export PV_DV_PASSWORD=password01
