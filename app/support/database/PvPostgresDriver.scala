@@ -4,13 +4,8 @@ package support.database
   * Created by alkha on 9/21/16.
   */
 
-import com.github.tminglei.slickpg._
-
-import com.github.tminglei.slickpg.{PgArraySupport, PgDate2Support, PgPlayJsonSupport}
-import play.api.libs.json.{JsValue, Json, Reads}
+import com.github.tminglei.slickpg.{PgArraySupport, PgDate2Support, PgPlayJsonSupport, _}
 import slick.driver.PostgresDriver
-import slick.driver.PostgresDriver.api._
-
 
 trait PvPostgresDriver extends PostgresDriver
   with PgArraySupport
